@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":"AAEA,EACE,WAHW,C","sources":["webpack://r-07-05-import-export/./src/styles/main.scss"],"sourcesContent":["$brandColor: brown;\r\n\r\n* {\r\n  color: $brandColor;\r\n}\r\n"],"names":[],"sourceRoot":""}
