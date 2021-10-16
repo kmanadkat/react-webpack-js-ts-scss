@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "SET NODE_ENV=production & webpack --config webpack.prod.js "
   },
   "keywords": [],
   "author": "Krupesh Anadkat",
@@ -16,14 +16,19 @@
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
+    "autoprefixer": "^10.3.7",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.4.0",
     "dotenv-webpack": "^7.0.3",
     "mini-css-extract-plugin": "^2.4.2",
+    "postcss": "^8.3.9",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sass": "^1.43.2",
     "sass-loader": "^12.2.0",
+    "tailwindcss": "^2.2.17",
     "webpack": "^5.58.2",
     "webpack-cli": "^4.9.0",
     "webpack-dev-server": "^4.3.1",

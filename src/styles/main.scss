@@ -1,5 +1,9 @@
-$brandColor: brown;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-  color: $brandColor;
+html,
+body,
+#root {
+  height: 100%;
 }
