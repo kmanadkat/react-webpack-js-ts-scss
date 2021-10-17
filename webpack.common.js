@@ -12,6 +12,9 @@ module.exports = {
     chunkFilename: '[name].bundle.js',
     path: path.join(__dirname, 'dist'),
   },
+  resolve: {
+    extensions: ['.ts', '.js', '.tsx', '.jsx'],
+  },
   module: {
     rules: [
       { test: /\.(js|jsx|tsx)$/, use: 'babel-loader', exclude: /node_modules/ },
